@@ -3,8 +3,8 @@ import random
 
 class House:
     def __init__(self):
-        self.food = 50  # Кількість їжі в холодильнику
-        self.mess = 0  # Рівень безладу в домі
+        self.food = 50 
+        self.mess = 0 
 
     def __str__(self):
         return f"Стан дому: Їжа = {self.food}, Безлад = {self.mess}"
